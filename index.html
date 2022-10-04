@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://js.arcgis.com/4.24/esri/themes/light/main.css">
+    <script src="https://js.arcgis.com/4.24/"></script>
+</head>
+<body>
+
+<div class="container">
+
+   
+    <div>
+    <select name="ilceler" class="select" id="ilceler">
+    <option value="0">İlçe Seçiniz:</option>
+      <option value="ADALAR">ADALAR</option>
+      <option value="ARNAVUTKÖY">ARNAVUTKÖY</option>
+      <option value="ATAŞEHİR">ATAŞEHİR</option>
+      <option value="AVCILAR">AVCILAR</option>
+      <option value="BAĞCILAR">BAĞCILAR</option>
+      <option value="BAHÇELİEVLER">BAHÇELİEVLER</option>
+      <option value="BAKIRKÖY">BAKIRKÖY</option>
+      <option value="BAŞAKŞEHİR">BAŞAKŞEHİR</option>
+      <option value="BAYRAMPAŞA">BAYRAMPAŞA</option>
+      <option value="BEŞİKTAŞ">BEŞİKTAŞ</option>
+      <option value="BEYKOZ">BEYKOZ</option>
+      <option value="BEYLİKDÜZÜ">BEYLİKDÜZÜ</option>
+      <option value="BEYOĞLU">BEYOĞLU</option>
+      <option value="BÜYÜKÇEKMECE">BÜYÜKÇEKMECE</option>
+      <option value="ÇATALCA">ÇATALCA</option>
+      <option value="ÇEKMEKÖY">ÇEKMEKÖY</option>
+      <option value="ESENLER">ESENLER</option>
+      <option value="ESENYURT">ESENYURT</option>
+      <option value="EYÜPSULTAN">EYÜPSULTAN</option>
+      <option value="FATİH">FATİH</option>
+      <option value="GAZİOSMANPAŞA">GAZİOSMANPAŞA</option>
+      <option value="GÜNGÖREN">GÜNGÖREN</option>
+      <option value="KADIKÖY">KADIKÖY</option>
+      <option value="KAĞITHANE">KAĞITHANE</option>
+      <option value="KARTAL">KARTAL</option>
+      <option value="KÜÇÜKÇEKMECE">KÜÇÜKÇEKMECE</option>
+      <option value="MALTEPE">MALTEPE</option>
+      <option value="PENDİK">PENDİK</option>
+      <option value="SANCAKTEPE">SANCAKTEPE</option>
+      <option value="SARIYER">SARIYER</option>
+      <option value="SİLİVRİ">SİLİVRİ</option>
+      <option value="SULTANBEYLİ">SULTANBEYLİ</option>
+      <option value="SULTANGAZİ">SULTANGAZİ</option>
+      <option value="ŞİLE">ŞİLE</option>
+      <option value="ŞİŞLİ">ŞİŞLİ</option>
+      <option value="TUZLA">TUZLA</option>
+      <option value="ÜMRANİYE">ÜMRANİYE</option>
+      <option value="ÜSKÜDAR">ÜSKÜDAR</option>
+      <option value="ZEYTİNBURNU">ZEYTİNBURNU</option>
+    </select> </div>
+    <button type="button" id="sbmt" onclick="filtrele()" > Filtrele</button>
+    <div id="viewDiv"> </div>  
+</div>
+
+
+
+
+<script src="./app.js"> </script>
+<script src="./ilceler.js"> </script>
+</body>
+</html>

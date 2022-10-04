@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Bungee);
+body{
+    height: 100vh;
+    margin: 0;
+  
+    
+}
+   .container{
+  width: 100vw;
+  height: 100vh;
+  display: flex ;
+}
+
+
+#viewDiv{
+    width: 100% ;
+    height: 100%;
+    float: left;
+    z-index: 3;
+    position: relative;
+
+       }
+
+
+.select {
+    width: 250px;
+    height: 50px;
+    float: left;
+    z-index:999;
+    position: fixed;
+    background: whitesmoke;
+    cursor:pointer;
+    font-family:'Bungee';
+    margin-top: 10px;
+    margin-left:5px;
+    color: #60666d;
+    border-radius: 13px;
+ }
+
+
+ .select:hover {
+   background-color: rgb(238, 237, 237);
+ }
+ #sbmt{
+  
+    width: 80px;
+    height: 30px;
+    font-size:10px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+    z-index: 999;
+    float: left;
+    position: fixed;
+    margin-top: 63px;
+    font-family:'Bungee';
+    color: #60666d;
+  border-width: .4px;
+  border-color: #60666d;
+  margin-left: 6px;
+  border-radius: 15px;
+    
+    }
+#sbmt:hover{
+background-color: rgb(196, 196, 196);
+transition: .3s;
+}
